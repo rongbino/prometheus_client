@@ -3,7 +3,7 @@ import random
 import time
 
 # create a metrix to track time spent and requests made
-REQUEST_TIME = Summary('request_processing_seconds', 'Time spent processing request')
+REQUEST_TIME = Summary('py_request_processing_seconds', 'Time spent processing request')
 
 # Decorate functionwith metric
 @REQUEST_TIME.time()
